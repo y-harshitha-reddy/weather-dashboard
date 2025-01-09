@@ -3,13 +3,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load CSV Files using paths (replace these paths with the actual paths of your CSV files)
-city_attributes = pd.read_csv("C:/Users/dhoni/Music/PYTHON/city_attributes.csv")
-humidity = pd.read_csv("C:/Users/dhoni/Music/PYTHON/humidity.csv")
-pressure = pd.read_csv("C:/Users/dhoni/Music/PYTHON/pressure.csv")
-temperature = pd.read_csv("C:/Users/dhoni/Music/PYTHON/temperature.csv")
-weather_description = pd.read_csv("C:/Users/dhoni/Music/PYTHON/weather_description.csv")
-wind_direction = pd.read_csv("C:/Users/dhoni/Music/PYTHON/wind_direction.csv")
-wind_speed = pd.read_csv("C:/Users/dhoni/Music/PYTHON/wind_speed.csv")
+city_attributes = pd.read_csv("city_attributes.csv")
+humidity = pd.read_csv("humidity.csv")
+pressure = pd.read_csv("pressure.csv")
+temperature = pd.read_csv("temperature.csv")
+weather_description = pd.read_csv("weather_description.csv")
+wind_direction = pd.read_csv("wind_direction.csv")
+wind_speed = pd.read_csv("wind_speed.csv")
 
 # Set up Streamlit App
 st.title("Weather Monitoring Dashboard")
